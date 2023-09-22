@@ -1,6 +1,6 @@
 def isDivisible(num, divisors):
     for d in divisors:
-        if num% d == 0:
+        if num % d == 0:
             return True
     return False
 
